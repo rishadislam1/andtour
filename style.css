@@ -1,0 +1,46 @@
+@media only screen and (min-width: 900px) {
+  body {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .menu {
+    display: inline;
+  }
+  .mobileMenu{
+    display: none;
+  }
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  gap: 20px;
+  font-weight: 900;
+}
+.tour {
+  color: red;
+}
+.menu ul {
+  display: flex;
+  gap: 10px;
+}
+.menu ul li {
+  list-style-type: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.menu ul li:first-child {
+  color: orange;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: none;
+    }
+    .mobileMenu{
+        display: :inline;
+    }
+  }
