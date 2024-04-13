@@ -217,6 +217,42 @@ button {
   align-items: center;
   width: 100%;
 }
+.hotel{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+.handpichotel{
+  background-color: #fbb46334;
+  padding: 10px;
+  border-radius: 10px;
+}
+.handpichotel>p{
+  width: 100%;
+}
+.worldclassservice{
+  background-color: #29cdf61e;
+  padding: 10px;
+  border-radius: 10px;
+}
+.worldclassservice>p{
+  width: 100%;
+}
+.best{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.bestprice{
+  background-color: #e9444426;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+}
+.bestprice>p{
+  width: 100%;
+}
 /* responsive */
 @media only screen and (max-width: 600px) {
   .menu {
@@ -268,6 +304,16 @@ button {
     display: grid;
     grid-template-columns: auto;
     gap: 10px;
+  }
+  .hotel{
+    grid-template-columns: auto;
+  }
+ 
+  .bestprice{
+    background-color: #e9444426;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
   }
 }
 
