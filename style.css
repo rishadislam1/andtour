@@ -277,6 +277,28 @@ button {
   border: none;
   background-color: rgba(185, 185, 185, 0.13);
 }
+.choosecolor{
+  margin-top: 30px;
+  background-color: wheat;
+  border-radius: 10px;
+  padding: 20px;
+}
+.choosecolor button{
+  margin-top: 20px;
+}
+.hotelchoose{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.hotelchoose input{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
 footer{
   margin-top: 40px;
   background-color: rgba(128, 128, 128, 0.132);
