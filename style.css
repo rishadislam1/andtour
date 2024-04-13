@@ -253,6 +253,30 @@ button {
 .bestprice>p{
   width: 100%;
 }
+.newsletter{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+}
+.newsletter img{
+  width: 100%;
+}
+.newsform{
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+.newsform button{
+  width: 100%;
+}
+.newsform input{
+  width: 96%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(185, 185, 185, 0.13);
+}
 /* responsive */
 @media only screen and (max-width: 600px) {
   .menu {
@@ -314,6 +338,12 @@ button {
     padding: 10px;
     border-radius: 10px;
     width: 100%;
+  }
+  .newsletter{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
   }
 }
 
